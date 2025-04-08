@@ -1,4 +1,3 @@
-process.env.WEBHOOK_URL = "https://" + process.env.PROJECT_DOMAIN + ".glitch.me";
 const { Client } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const config = require('./config.json');
